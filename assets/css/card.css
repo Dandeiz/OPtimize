@@ -1,0 +1,48 @@
+.card {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.card h3 {
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.card p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.card__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card__item {
+    box-sizing: border-box;
+    padding: 2rem 0 2rem 5rem;
+    max-width: 350px;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: top 1.25rem left 1rem;
+}
+
+.card__item--seuJeito {
+    background-image: url("../images/design-tools.png");
+}
+
+.card__item--foco {
+    background-image: url("../images/dollar.png");
+}
+
+.card__item--suporte {
+    background-image: url("../images/support.png")
+}
+
+@media screen and (max-width:768px){
+    .card {
+        padding: 30px 0 50px;
+    }
+}

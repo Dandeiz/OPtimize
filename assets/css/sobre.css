@@ -1,0 +1,180 @@
+.sobre h2 {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.sobre__significado {
+    width: 830px;
+    height: 150px;
+    background-color: #DFC035;
+    color: white;
+    margin: 50px auto 0;
+}
+
+.sobre__significado h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding: 20px 0 20px 50px;
+}
+
+.sobre__significado p {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.sobre__descricao {
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 0 50px;
+    width: 830px;
+    margin: 0 auto;
+}
+
+.dan {
+    height: 350px;
+}
+
+.dan-img {
+    text-align: right;
+    background-color: #DFC035;
+    height: 350px;
+    position: relative;
+    right: 55%;
+}
+
+.dan-txt {
+    width: 350px;
+    position: relative;
+    left: 55%;
+    bottom: 310px;
+}
+
+.dan-txt h3 {
+    font-size: 30px;
+    padding-bottom: 12px;
+}
+
+.dan-txt p {
+    font-size: 15px;
+    padding-bottom: 24px;
+    line-height: 1.5;
+}
+
+.luiz {
+    height: 350px;
+}
+
+.luiz-img {
+    background-color: #DFC035;
+    height: 350px;
+    position: relative;
+    left: 55%;
+    width: 45%;
+}
+
+.luiz-txt {
+    width: 350px;
+    position: relative;
+    left: 22%;
+    bottom: 290px;
+}
+
+.luiz-txt h3 {
+    font-size: 30px;
+    padding-bottom: 12px;
+}
+
+.luiz-txt p {
+    font-size: 15px;
+    padding-bottom: 24px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 768px){
+    .sobre {
+        padding: 0 15px;
+    }
+
+    .titulo {
+        text-align: center;
+    }
+
+    .sobre__significado {
+        width: 100%;
+    }
+
+    .sobre__significado h3{
+        font-size: 20px;
+        padding: 12px 25px;
+    }
+
+    .sobre__significado p {
+        font-size: 15px;
+        padding: 0 25px;
+    }
+
+    .sobre__descricao {
+        width: 100%;;
+        font-size: 15px;
+        padding: 15px 0 25px;
+    }
+
+    .dan {
+        height: 100%
+    }
+
+    .dan-img {
+        text-align: center;
+        background-color: #e5e5e5;
+        height: 350px;
+        width: 100%;
+        position: static;
+    }
+    
+    .dan-txt {
+        width: 100%;
+        position: static;
+        text-align: center;
+    }
+    
+    .dan-txt h3 {
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
+    
+    .dan-txt p {
+        font-size: 15px;
+        padding-bottom: 12px;
+        line-height: 1.5;
+    }
+
+    .luiz {
+        height: 100%;
+    }
+
+    .luiz-img {
+        text-align: center;
+        background-color: #e5e5e5;
+        height: 350px;
+        width: 100%;
+        position: static;
+    }
+    
+    .luiz-txt {
+        width: 100%;
+        position: static;
+        text-align: center;
+    }
+    
+    .luiz-txt h3 {
+        padding: 12px 15px;
+    }
+    
+    .luiz-txt p {
+        font-size: 15px;
+        padding-bottom: 12px;
+        line-height: 1.5;
+    }
+}
