@@ -11,6 +11,10 @@
     margin: 50px auto 0;
 }
 
+.sobre em {
+    font-style: italic;
+}
+
 .sobre__significado h3 {
     font-size: 25px;
     padding-bottom: 20px;
