@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/scrollbar.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="assets/css/servicos.css">
     <link rel="stylesheet" href="assets/css/card.css">
     <link rel="stylesheet" href="assets/css/contato.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <title>OPtimize.</title>
 </head>
 <body>
@@ -20,13 +22,13 @@
         <div class="menuBG">
             <div class="menu">
                 <div class="logo">
-                    <img src="assets/images/logo.png" alt="logo">
+                    <a class="scroll" href="#banner"><img src="assets/images/logo.png" alt="logo"></a>
                 </div>
                 <div class="nav">
                         <ul class="nav-links">
-                            <li><a href="#sobre">Sobre</a></li>
-                            <li><a href="#">Serviços</a></li>
-                            <li><a href="#">Contato</a></li>
+                            <li><a class="scroll" href="#sobre">Sobre</a></li>
+                            <li><a class="scroll" href="#servicos">Serviços</a></li>
+                            <li><a class="scroll" href="#contato">Contato</a></li>
                         </ul>
                 </div>
                 <div class="burger">
@@ -37,7 +39,7 @@
             </div>
         </div>
         
-        <div class="banner">
+        <div class="banner" id="banner">
             <div class="banner-txt">
                 <div class="banner-words">
                     <h1 class="banner-title">OPtimize</h1>
@@ -93,7 +95,7 @@
 
         <!-- SERVIÇOS -->
 
-        <section class="servicos">
+        <section class="servicos" id="servicos">
             <h2 class="titulo">Serviços</h2>
             <div class="servicos__website">
                 <div class="website-img">
@@ -143,7 +145,7 @@
 
         <!-- CONTATO -->
 
-        <section class="contato">
+        <section class="contato" id="contato">
             <h2 class="titulo">Contate-nos</h2>
             <div class="contato__conteudo">
                 <div class="dados">
@@ -186,9 +188,14 @@
                 </div>
             </div>
         </section>
+
+        <footer>
+            <p><span class="footer__op">OP</span>timize <span class="footer__copyright">copyright</span> 2021</p>
+        </footer>
     </main>
 
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/scroll.js"></script>
     <script src="assets/javascript/navbar.js"></script>
 </body>
 </html>

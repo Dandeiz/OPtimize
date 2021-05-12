@@ -49,7 +49,7 @@ header {
 	text-decoration:none;
 }
 .myButton:hover {
-	background-color:transparent;
+	background-color: black;
 }
 .myButton:active {
 	position:relative;

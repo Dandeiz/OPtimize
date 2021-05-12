@@ -1,0 +1,18 @@
+footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+}
+
+footer p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.footer__copyright {
+    font-family: 'Material Icons';
+}
+
+.footer__op {
+    color: #DFC035;
+}
