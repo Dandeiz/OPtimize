@@ -1,7 +1,7 @@
 # OPtimize
 Site onepage para projeto pessoal [ protótipo ]
 
-O projeto visa fazer uma simples, elegante e funcional apresentação dos serviçoes que são prestados pela equipe da OPtimize. 
+O projeto visa fazer uma simples, elegante e funcional apresentação dos serviços que são prestados pela equipe da OPtimize. 
 
 Os objetivos a serem alcançados eram:
 
