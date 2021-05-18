@@ -2,6 +2,10 @@ header {
     background: black;
 }
 
+.banner-title span {
+    color: #DFC035;
+}
+
 .banner {
     padding-top: 60.72px;
     display: flex;
